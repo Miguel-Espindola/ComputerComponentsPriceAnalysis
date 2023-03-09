@@ -68,7 +68,7 @@ namespace WebScrapperv1
                 var element = driver.FindElement(By.XPath(datos.XPathComponentPrice));
                 Console.WriteLine("Precio de: "+  datos.ComponentName + "    " +  element.Text);
             }
-          
+// esto es un comentario de prueba 
 
         }
 
